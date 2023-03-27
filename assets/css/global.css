@@ -5,11 +5,11 @@
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url(/assets/fonts/neue-machina-regular.otf);
+    src: url('assets/fonts/neue-machina-regular.otf');
 }
 
 body {
-    background-color: rgb(187, 195, 202);
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     color: #fff;
 }
