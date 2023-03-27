@@ -42,31 +42,31 @@
 }
 
 .informations .job::before {
-    background-image: url('assets/img/icons/job.svg');
+    background-image: url('../img/icons/job.svg');
 }
 
 .informations .location::before {
-    background-image: url('assets/img/icons/location.svg');
+    background-image: url('../img/icons/location.svg');
 }
 
 .informations .phone::before {
-    background-image: url('assets/img/icons/phone.svg');
+    background-image: url('../img/icons/phone.svg');
 }
 
 .informations .email::before {
-    background-image: url('assets/img/icons/email.svg');
+    background-image: url('../img/icons/email.svg');
 }
 
 .informations .linkedin::before {
-    background-image: url('assets/img/icons/linkedin.svg');
+    background-image: url('../img/icons/linkedin.svg');
 }
 
 .informations .github::before {
-    background-image: url('assets/img/icons/github-blue.svg');
+    background-image: url('../img/icons/github-blue.svg');
 }
 
 .informations .curriculo::before {
-    background-image: url('assets/img/icons/cv.svg');
+    background-image: url('../img/icons/cv.svg');
 }
 
 
