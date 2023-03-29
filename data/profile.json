@@ -1,10 +1,13 @@
 {
-    "nome" : " Jorge Freitas " ,
-    "foto" : " https://avatars.githubusercontent.com/u/3266640?v=4 " ,
+    "name" : " Jorge Freitas " ,
+    "photo" : " https://avatars.githubusercontent.com/u/3266640?v=4 " ,
     "job" : " Desenvolvedor de Software Jr. " ,
-    "localização" : " Ribeirão Preto - SP " ,
-    "telefone" : " (16) 99273-9653 " ,
+    "location" : " Ribeirão Preto - SP " ,
+    "phone" : " (16) 99273-9653 " ,
     "email" : " jorgeslfreitas@gmail.com " ,
+    "linkedin": " https://www.linkedin.com/in/jorge-freitas-dev/ ",
+    "github" : " https://github.com/jorgeslfreitas ",
+    "curriculo": " https://drive.google.com/file/d/12ScMrkAIrOxvCZu-NiQDsUScmIPD1sSY/view?usp=sharing ",
     "habilidades" : {
       "hardSkills" : [
         {
