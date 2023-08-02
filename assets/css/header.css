@@ -108,11 +108,12 @@
             "photo informations"
         ;
         justify-content: space-around;
+        align-items: end;
     }
 
     .header .photo {
         grid-area: photo;
-        margin: 65% auto;
+        margin-top: 150px;
     }
 
     .header .title {
