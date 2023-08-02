@@ -4,11 +4,41 @@
     align-items: center;
 }
 
+#wrapper {
+    perspective: 800px;
+}
+
+.header #card-content {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform 1.5s ease-in-out; 
+}
 .header .photo {
     width: 200px;
     height: 200px;
     border: 1px solid #0288D1;
     border-radius: 50%;
+}
+
+.header #card-front,
+.header #card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.header #card-back {
+    transform: rotateY(180deg);
+}
+
+.header #card-content:hover {
+    transform: rotateY(540deg);
 }
 
 .header .title {
@@ -77,6 +107,8 @@
             "photo title"
             "photo informations"
         ;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .header .photo {
